@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000; /* Ganti background halaman menjadi hitam */
+    color: #fff; /* Ganti warna teks default menjadi putih */
+}
+
+.navbar {
+    background-color: #000; /* Ubah latar belakang navbar menjadi hitam */
+    margin-bottom: 0; /* Hapus margin bawah navbar */
+    padding: 0; /* Hapus padding tambahan pada navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #fff !important; /* Warna link navbar menjadi putih */
+}
+
+.nav-link:hover {
+    color: #ff6600 !important; /* Warna hover link navbar menjadi orange */
+}
+
+#home {
+    background: #000; /* Background tetap hitam untuk bagian home */
+    color: #fff; /* Teks tetap putih untuk bagian home */
+    text-align: center;
+    padding: 6rem 0;
+    position: relative;
+}
+
+.abstract-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.shape {
+    position: absolute;
+    background: #ff6600; /* Ganti warna bentuk abstrak menjadi oranye */
+    border-radius: 50%;
+}
+
+.shape1 {
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    left: 5%;
+}
+
+.shape2 {
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 15%;
+}
+
+.shape3 {
+    width: 150px;
+    height: 150px;
+    top: 30%;
+    right: 10%;
+}
+
+.shape4 {
+    width: 100px;
+    height: 100px;
+    bottom: 10%;
+    right: 15%;
+}
+
+.text-content {
+    position: relative;
+    z-index: 1; /* Pastikan konten berada di atas bentuk abstrak */
+}
+
+#about {
+    background: #000; /* Background hitam untuk bagian about */
+    padding: 4rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#about h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #ff6600; /* Warna judul bagian about menjadi orange */
+    position: relative;
+    z-index: 1;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #ccc; /* Warna teks bagian about menjadi abu-abu terang */
+    position: relative;
+    z-index: 1;
+}
+
+#services {
+    background: #000; /* Background hitam untuk bagian services */
+    padding: 4rem 0;
+}
+
+#services h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #ff6600; /* Warna judul bagian services menjadi orange */
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.service {
+    flex: 1 1 30%;
+    padding: 1.5rem;
+    background: #1e1e1e; /* Warna latar belakang service */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.service h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #ff6600; /* Warna judul service menjadi orange */
+}
+
+.service p {
+    font-size: 1rem;
+    color: #ccc; /* Warna teks service menjadi abu-abu terang */
+}
+
+#why-promax {
+    background: #000; /* Background hitam untuk bagian why-promax */
+    padding: 4rem 0;
+}
+
+#why-promax h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #ff6600; /* Warna judul bagian why-promax menjadi orange */
+}
+
+.step-number {
+    display: inline-block;
+    background: #ff6600; /* Warna step number menjadi orange */
+    color: #fff;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+}
+
+.step h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #ff6600; /* Warna judul step menjadi orange */
+}
+
+.step p {
+    font-size: 1rem;
+    color: #ccc; /* Warna teks step menjadi abu-abu terang */
+}
+
+#how-it-works {
+    background: #000; /* Background hitam untuk bagian how-it-works */
+    padding: 4rem 0;
+}
+
+#how-it-works h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #ff6600; /* Warna judul bagian how-it-works menjadi orange */
+}
+
+#contact {
+    background: #000; /* Background hitam untuk bagian contact */
+    padding: 4rem 0;
+}
+
+#contact h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #ff6600; /* Warna judul bagian contact menjadi orange */
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #fff; /* Warna teks contact menjadi putih untuk keterbacaan */
+}
+
+footer {
+    background: #000; /* Latar belakang footer hitam */
+    color: #fff;
+    padding: 1rem 0;
+}
+
